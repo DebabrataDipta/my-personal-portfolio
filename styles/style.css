@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-title{
+    font-weight: 800px;
+    width: 121px;
+    /* height: 61px; */
+    font-size: 45px;
+}
+.text-primary{
+     color:#FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 200px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+}
+/* banner images */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;  
+}
+/* .images{
+    width:584px;
+    height:676px;
+} */
+.banner-subtitle{
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 25px;
+    color: #474747;
+}
+.Banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-paragraph{
+    font-size: 20px;
+    color:#757575;
+    margin-bottom: 25px;
+}
+.head-primary{
+    background-color: #FFF8F3;
+    margin-top: -35px;
+    background-image: url('../images/header_bg.png'),url('../images/developer1.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;   
+}
+/* Main section */
+#main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About section */
+.about{
+    
+    background-color: #FFF8F3;
+    text-align: center;
+    border-radius: 10px;
+    padding: 119px 168px 143px 145px;
+}
+.section-title{
+    
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-paragraph{
+    
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.about .info-title{
+    color: #757575;
+    font-size: 20px;
+}
+.info-description{
+     color: #474747;
+     font-weight:700;
+     font-size: 20px;
+}
+/* what i do style */
+.what-i-do{
+    
+    text-align: center;
+}
+.section-title2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+}
+.section-paragraph{
+        color: #474747;
+        font-weight: 500;
+        font: 20px;
+        margin-bottom: 30px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+.skill{
+    border-radius: 5px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding:40px 30px;
+}
+.skill-title{
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 20px;
+      margin-top: 30px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600px;
+}
+section{
+    margin-top:130px;
+}
+/* Resume style */
+.section-title3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+.resume-content{
+    display: flex;
+    gap: 50px;
+}
+.resume-title{
+    font-size: 25px;
+}
+.resume-experience{
+    font-size: 25px;
+}
+.resume-item  .title{
+        font-size: 20px;
+        font-weight: 800;
+        color: #474747;
+        margin-bottom: 10px;
+}
+.resume-item  .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume-item  .description{
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact .section-title4{
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title5{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact input[type="text"],[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 25px;
+}
+input{
+    height:54px;
+}
+a{
+    text-decoration: none;
+}
+.section-description-2{
+    margin-bottom: 20px;
+}
+footer{
+        margin-top:70px;
+        margin-bottom: 40px; 
+        font-weight: 600;
+        text-align: center;
+}
