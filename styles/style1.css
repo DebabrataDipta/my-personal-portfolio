@@ -200,3 +200,60 @@
 .resume-button{
     text-align: center;
 }
+.Contact{
+    background-color:  #FFF8F3;
+    padding-top:200px;
+    padding-bottom:70px;
+    padding-right: 50px;
+}
+.Contact{
+     display: flex;
+     gap: 80px; 
+}
+.Contact-info{
+    margin-left: 150px;
+}
+.Contact-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.Contact-paragraph{
+    margin-top: 30px;
+    color: #474747;
+}
+a{
+    text-decoration: none;
+}
+.contact-link{
+    margin-top: 4px;
+}
+.contact-heading{
+    font-size: 25px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+.contact-form-title{
+    margin-right:40px;
+}
+.contact-form-title input[type="text"],[type="email"],[type="password"],textarea{
+    border: 0;
+    width: 100%;
+    padding:15px 8px;
+    margin-top: 20px; 
+    border-radius: 10px;
+}
+.btn-primary4{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 25px 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    border-style: none;
+    font-size: 15px;
+}
+footer{
+    margin: 30px;
+    text-align: center;
+    
+}
